@@ -1,0 +1,1 @@
+from decimal import Decimalclass Constants:    PRICES = {        'LP': {'S': Decimal('1.50'), 'M': Decimal('4.90'), 'L': Decimal('6.90')},        'MR': {'S': Decimal('2.00'), 'M': Decimal('3.00'), 'L': Decimal('4.00')}    }    VALID_SIZES = ['S', 'M', 'L']    VALID_PROVIDERS = ['LP', 'MR']    MAX_DISCOUNT = Decimal('10.00')
