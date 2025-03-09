@@ -23,23 +23,6 @@ git clone https://github.com/your-username/vinted-task.git
 cd vinted-task
 ```
 
-### 2. Set Up a Python Virtual Environment
-Ensure you have **Python 3.7+** installed.
-
-```sh
-python -m venv venv
-source venv/bin/activate  # On macOS/Linux
-venv\Scripts\activate     # On Windows
-```
-
-### 3. Install Dependencies (if needed)
-```sh
-pip install -r requirements.txt
-```
-(Note: The script primarily uses built-in Python libraries, so this may not be required.)
-
----
-
 ## How to Use
 
 ### 1. Prepare the Input File (`input.txt`)
