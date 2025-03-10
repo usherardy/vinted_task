@@ -20,7 +20,6 @@ This project processes shipment transactions and applies discount rules accordin
 ### 1. Clone the Repository
 ```sh
 git clone https://github.com/usherardy/vinted_task_2025.git
-cd vinted-task
 ```
 
 ## How to Use
