@@ -73,13 +73,23 @@ This will read `input.txt`, process each shipment, and save the results in `outp
 ## Project Structure
 ```
 vinted-task/
-│── constants.py           # Stores predefined constants (prices, providers, etc.)
-│── discount_engine.py     # Handles discount logic
-│── shipment_processor.py  # Processes input and applies discounts
-│── transaction.py         # Represents a single shipment transaction
-│── main.py                # Main script for reading input and writing output
-│── input.txt              # Sample input file
-│── output.txt             # Processed output file
-│── tests/                 # Unit tests for validation
-│── README.md              # Project documentation
+│── constants.py              # Stores predefined constants (prices, providers, etc.)
+│── discount_engine.py        # Handles discount logic
+│── shipment_processor.py     # Processes input and applies discounts
+│── transaction.py            # Represents a single shipment transaction
+│── main.py                   # Main script for reading input and writing output
+│── input.txt                 # Sample input file
+│── output.txt                # Processed output file
+│── test_input_validation.py  # Unit tests for validation
+│── README.md                 # Project documentation
 ```
+
+---
+
+## Running Tests
+To verify that the program functions correctly, you can run the unit tests:
+
+```sh
+python -m unittest discover tests
+```
+
